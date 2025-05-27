@@ -66,7 +66,7 @@
 <body>
   <a href="https://freeimage.host/es"><img src="https://iili.io/3myJZF4.jpg" alt="3myJZF4.jpg" border="0" class="logo" /></a>
 
-  <p>Transmitiendo en vivo...</p>
+  <p></p>
 
   <audio controls autoplay>
     <source src="https://stream.zeno.fm/utaaqemlboovv" type="audio/mpeg" />
