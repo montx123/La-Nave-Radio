@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title></title>
   <style>
     body {
@@ -48,16 +48,4 @@
   </style>
 </head>
 <body>
-  <img src="logo.png" alt="La Nave Radio Logo" class="logo">
-  <p>Transmitiendo en vivo...</p>
-
-  <audio controls autoplay>
-    <source src="https://stream.zeno.fm/utaaqemlboovv" type="audio/mpeg">
-    Tu navegador no soporta la transmisión de audio.
-  </audio>
-
-  <footer>
-    &copy; 2025 La Nave Radio. Todos los derechos reservados.
-  </footer>
-</body>
-</html>
+  <img src="https://i.ibb.co/hHrL2nY/LOGO-OK.png" alt="La Nave Radio Logo"
