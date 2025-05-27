@@ -10,15 +10,15 @@
     body {
       margin: 0;
       font-family: 'Orbitron', sans-serif;
-      background-color: #ffffff;
-      color: #111111;
+      background-color: #000000;
+      color: #00f0ff;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       text-align: center;
       height: 100vh;
-      background-image: radial-gradient(#e0e0e0 1px, #ffffff 1px);
+      background-image: radial-gradient(#1a1a1a 1px, #000 1px);
       background-size: 40px 40px;
     }
 
@@ -31,7 +31,7 @@
     p {
       font-size: 1.3em;
       margin: 10px 0 30px;
-      color: #111111;
+      color: #00f0ff;
     }
 
     audio {
@@ -43,4 +43,5 @@
     a.whatsapp-button {
       margin-top: 20px;
       display: inline-flex;
-      align-items:
+      align-items: center;
+      background-color: #25D366;
