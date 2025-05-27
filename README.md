@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>La Nave Radio Web</title>
+  <title></title>
   <style>
     body {
       margin: 0;
@@ -24,12 +24,6 @@
       width: 220px;
       margin-bottom: 20px;
       border-radius: 10px;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 2.5em;
-      color: #f0e6d2;
     }
 
     p {
@@ -55,7 +49,6 @@
 </head>
 <body>
   <img src="logo.png" alt="La Nave Radio Logo" class="logo">
-  <h1>La Nave Radio Web</h1>
   <p>Transmitiendo en vivo...</p>
 
   <audio controls autoplay>
