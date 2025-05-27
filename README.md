@@ -38,6 +38,22 @@
       border-radius: 5px;
     }
 
+    a.whatsapp-button {
+      margin-top: 20px;
+      display: inline-block;
+      background-color: #00f0ff;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    a.whatsapp-button:hover {
+      background-color: #00b0cc;
+    }
+
     footer {
       margin-top: 40px;
       font-size: 0.8em;
@@ -55,6 +71,11 @@
     <source src="https://stream.zeno.fm/utaaqemlboovv" type="audio/mpeg" />
     Tu navegador no soporta la transmisión de audio.
   </audio>
+
+  <a href="https://wa.me/5493624878775" target="_blank" class="whatsapp-button">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:20px; vertical-align:middle; margin-right:10px;">
+    Escribinos por WhatsApp
+  </a>
 
   <footer>
     &copy; 2025 La Nave Radio. Todos los derechos reservados.
