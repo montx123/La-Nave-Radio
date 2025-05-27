@@ -53,11 +53,11 @@ La casa de los Extraterrestres!!!
 <body>
 
   <!-- Logo -->
-  <img src="la_nave_logo.png" alt="Logo La Nave Radio">
+  
 
   <!-- Reproductor -->
   <div class="player">
-    <h1>Transmitiendo en vivo</h1>
+    <h1>En vivo...</h1>
     <audio controls>
       <source src="https://stream.zeno.fm/utaaqemlboovv" type="audio/mpeg">
       Tu navegador no soporta el audio.
