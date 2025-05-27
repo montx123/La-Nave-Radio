@@ -5,8 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title></title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
-
     body {
       margin: 0;
       font-family: 'Orbitron', sans-serif;
@@ -42,10 +40,9 @@
 
     a.whatsapp-button {
       margin-top: 20px;
-      display: inline-flex;
-      align-items: center;
-      background-color: #25D366;
-      color: #fff;
+      display: inline-block;
+      background-color: #00f0ff;
+      color: #000;
       padding: 10px 20px;
       border-radius: 5px;
       text-decoration: none;
@@ -54,13 +51,7 @@
     }
 
     a.whatsapp-button:hover {
-      background-color: #1ebc59;
-    }
-
-    .whatsapp-button img {
-      width: 20px;
-      height: 20px;
-      margin-right: 10px;
+      background-color: #00b0cc;
     }
 
     footer {
@@ -68,12 +59,13 @@
       font-size: 0.8em;
       color: #888;
     }
+
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
   </style>
 </head>
 <body>
-  <!-- Nueva portada -->
-  <img src="https://iili.io/3mmHogI.jpg" alt="La Nave Radio Logo" class="logo" />
-  
+  <img src="https://iili.io/3mp4HR2.jpg" alt="Nueva Imagen" class="logo" />
+
   <p>Transmitiendo en vivo...</p>
 
   <audio controls autoplay>
@@ -81,9 +73,8 @@
     Tu navegador no soporta la transmisión de audio.
   </audio>
 
-  <!-- Botón WhatsApp oficial -->
   <a href="https://wa.me/5493624878775" target="_blank" class="whatsapp-button">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:20px; vertical-align:middle; margin-right:10px;">
     Escribinos por WhatsApp
   </a>
 
