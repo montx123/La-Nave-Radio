@@ -64,7 +64,7 @@
   </style>
 </head>
 <body>
-  <img src="https://iili.io/3mp4HR2.jpg" alt="Nueva Imagen" class="logo" />
+  <a href="https://freeimage.host/es"><img src="https://iili.io/3myJZF4.jpg" alt="3myJZF4.jpg" border="0" class="logo" /></a>
 
   <p>Transmitiendo en vivo...</p>
 
