@@ -9,7 +9,7 @@ La casa de los Extraterrestres!!!
   <title>La Nave Radio</title>
   <style>
     body {
-      background-color: #000;
+      background-color: #FF0000
       color: #fff;
       font-family: 'Segoe UI', sans-serif;
       display: flex;
