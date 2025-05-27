@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title></title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
     body {
       margin: 0;
       font-family: 'Orbitron', sans-serif;
@@ -36,22 +38,32 @@
       width: 90%;
       max-width: 320px;
       border-radius: 5px;
+      background-color: #8B0000; /* rojo sangre */
+      color: #fff;
+      outline: none;
     }
 
     a.whatsapp-button {
       margin-top: 20px;
-      display: inline-block;
-      background-color: #00f0ff;
-      color: #000;
+      background-color: #ffffff;
+      color: #000000;
       padding: 10px 20px;
       border-radius: 5px;
       text-decoration: none;
       font-weight: bold;
+      display: inline-flex;
+      align-items: center;
       transition: background-color 0.3s ease;
     }
 
     a.whatsapp-button:hover {
-      background-color: #00b0cc;
+      background-color: #e0e0e0;
+    }
+
+    a.whatsapp-button img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
     }
 
     footer {
@@ -59,12 +71,12 @@
       font-size: 0.8em;
       color: #888;
     }
-
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
   </style>
 </head>
 <body>
-  <a href="https://freeimage.host/es"><img src="https://iili.io/3myJZF4.jpg" alt="3myJZF4.jpg" border="0" class="logo" /></a>
+  <a href="https://ibb.co/Z6G2PYNp">
+    <img src="https://i.ibb.co/pvbh8RnB/result-1000011730.webp" alt="result-1000011730" border="0" class="logo" />
+  </a>
 
   <p></p>
 
@@ -74,7 +86,7 @@
   </audio>
 
   <a href="https://wa.me/5493624878775" target="_blank" class="whatsapp-button">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:20px; vertical-align:middle; margin-right:10px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp" />
     Escribinos por WhatsApp
   </a>
 
