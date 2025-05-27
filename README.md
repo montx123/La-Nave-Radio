@@ -1,9 +1,9 @@
-
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title></title>
+  <title>La Nave Radio</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
@@ -45,3 +45,50 @@
       display: inline-flex;
       align-items: center;
       background-color: #25D366;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    a.whatsapp-button:hover {
+      background-color: #1ebc59;
+    }
+
+    .whatsapp-button img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.8em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <!-- Nueva portada -->
+  <img src="https://iili.io/3mmHogI.jpg" alt="La Nave Radio Logo" class="logo" />
+  
+  <p>Transmitiendo en vivo...</p>
+
+  <audio controls autoplay>
+    <source src="https://stream.zeno.fm/utaaqemlboovv" type="audio/mpeg" />
+    Tu navegador no soporta la transmisión de audio.
+  </audio>
+
+  <!-- Botón WhatsApp oficial -->
+  <a href="https://wa.me/5493624878775" target="_blank" class="whatsapp-button">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp" />
+    Escribinos por WhatsApp
+  </a>
+
+  <footer>
+    &copy; 2025 La Nave Radio. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
