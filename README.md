@@ -48,4 +48,16 @@
   </style>
 </head>
 <body>
-  <img src="https://i.ibb.co/hHrL2nY/LOGO-OK.png" alt="La Nave Radio Logo"
+  <img src="https://i.ibb.co/S4SV91fN/logo.png" alt="La Nave Radio Logo" class="logo" />
+  <p>Transmitiendo en vivo...</p>
+
+  <audio controls autoplay>
+    <source src="https://stream.zeno.fm/utaaqemlboovv" type="audio/mpeg" />
+    Tu navegador no soporta la transmisión de audio.
+  </audio>
+
+  <footer>
+    &copy; 2025 La Nave Radio. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
